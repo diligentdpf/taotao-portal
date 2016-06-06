@@ -10,6 +10,13 @@ public class Item {
     private String category_name;
     private String item_des;
 
+    public String[] getImages() {
+        if (this.image != null) {
+            return this.image.split(",");
+        }
+        return null;
+    }
+
     /**
      * @return the id
      */
