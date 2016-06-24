@@ -33,6 +33,5 @@ public class SearchController {
         model.addAttribute("itemList", searchResult.getItemList());
         model.addAttribute("page", page);
         return "search";
-
     }
 }
