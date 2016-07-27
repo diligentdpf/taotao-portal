@@ -31,5 +31,4 @@
 			<bean class="diao.taotao.portal.Interceptor.LoginInterceptor" />
 		</mvc:interceptor>
 	</mvc:interceptors>
-	
 </beans>

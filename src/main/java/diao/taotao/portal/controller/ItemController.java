@@ -21,7 +21,6 @@ public class ItemController {
     public String showItem(@PathVariable Long itemId, Model model) {
         ItemInfo item = itemService.getItemById(itemId);
         model.addAttribute("item", item);
-
         return "item";
     }
 
